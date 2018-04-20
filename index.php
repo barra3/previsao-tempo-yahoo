@@ -1,6 +1,4 @@
 <?php
-
-
 	require_once('tempo.class.php');
 	$Tempo = new PrevisaoTempo();
 	$Tempo->setLocalidade('455827');
@@ -15,7 +13,6 @@
 		echo '<br><span>'.$Tempo->condicao_atual;
 		echo '<br>Vento:'.$Tempo->vento_velocidade.' '.$Tempo->un_velocidade.'</span>';
 	echo '</div>';
-
 
 	for ($i=1; $i<=9; $i++) {
 
